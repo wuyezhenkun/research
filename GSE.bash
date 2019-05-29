@@ -7,3 +7,6 @@
 set –x
 
 cd /pylon5/cc5fpcp/weiliang/BMBL/r/test_final_2 
+
+python3 get_matrix.py 
+Rscript use_Mclust.R 
