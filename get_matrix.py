@@ -1,5 +1,5 @@
 import sys
-filename = sys.argv
+filename = sys.argv[1]
 
 with open(filename, 'r') as f:
     lines = f.readlines()
