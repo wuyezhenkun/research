@@ -1,6 +1,6 @@
 library(mclust)
 
-filename <- readline()
+filename <- commandArgs(trailingOnly = TRUE)
 
 data = read.table(filename,header = T)
 
