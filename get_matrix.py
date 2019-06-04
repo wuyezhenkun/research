@@ -1,5 +1,5 @@
 import sys
-filename = sys.argv[1]
+filename = sys.argv[1] + '_series_matrix.txt'
 
 print(sys.argv[1])
 
