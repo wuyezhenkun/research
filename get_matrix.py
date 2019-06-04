@@ -1,6 +1,8 @@
 import sys
 filename = sys.argv[1]
 
+print(sys.argv[1])
+
 with open(filename, 'r') as f:
     lines = f.readlines()
 with open(filename, 'w') as f:
