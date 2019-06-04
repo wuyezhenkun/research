@@ -14,5 +14,5 @@ m_clust <- Mclust(as.matrix(data1),G=1:number)
 
 print(m_clust$G)
 
-save.image(file = paste( filename,'.RData'))
+save.image(file = paste(filename,'.RData',sep = ""))
 
