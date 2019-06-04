@@ -1,12 +1,12 @@
 library(mclust)
 
-filename <- commandArgs(trailingOnly = TRUE)
+input <- commandArgs(trailingOnly = TRUE)
 
 data = read.table(filename,header = T)
 
-data1 = data[,2:16]
+data1 = data[,-1]
 
-m_clust <- Mclust(as.matrix(data1),G=1:50)
+m_clust <- Mclust(as.matrix(data1),G=1:)
 
 print(m_clust$G)
 
