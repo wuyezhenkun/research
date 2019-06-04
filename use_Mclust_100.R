@@ -10,4 +10,4 @@ m_clust <- Mclust(as.matrix(data1),G=1:100)
 
 print(m_clust$G)
 
-save.image(file = 'result.RData')
+save.image(file = paste( filename,'.RData'))
