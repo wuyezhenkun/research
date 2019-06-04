@@ -10,7 +10,7 @@ data = read.table(filename,header = T)
 
 data1 = data[,-1]
 
-m_clust <- Mclust(as.matrix(data1),G=1:)
+m_clust <- Mclust(as.matrix(data1),G=1:number)
 
 print(m_clust$G)
 
