@@ -2,6 +2,10 @@ library(mclust)
 
 input <- commandArgs(trailingOnly = TRUE)
 
+filename = input[1]
+
+number = as.numeric(input[2])
+
 data = read.table(filename,header = T)
 
 data1 = data[,-1]
