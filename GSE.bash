@@ -6,7 +6,6 @@
 # echo commands to stdout 
 set –x
 
-cd /pylon5/cc5fpcp/weiliang/BMBL/research/m_clust2/
+cd /pylon5/cc5fpcp/weiliang/BMBL/research/get_m_clust
 
-python3 get_matrix.py 
 Rscript use_Mclust.R 
