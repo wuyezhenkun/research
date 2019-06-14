@@ -2,9 +2,7 @@ library(mclust)
 
 input <- commandArgs(trailingOnly = TRUE)
 
-filename = paste(input[2],'_series_matrix.txt',sep = "")
-
-number = as.numeric(input[1])
+filename = paste(input[1],'_series_matrix.txt',sep = "")
 
 data = read.table(filename,header = T)
 
